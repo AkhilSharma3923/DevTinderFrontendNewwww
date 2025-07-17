@@ -12,7 +12,7 @@ const UserCard = ({user}) => {
   alt={user?.firstName || "User"}
   onError={(e) => {
     e.target.onerror = null; // Prevent infinite loop if fallback also fails
-    e.target.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AJM9wkP__z2M-hovSAWcTb_9XJ6smy3NKw&s";
+    e.target.src = "https://i.postimg.cc/BbqKRr6y/Whats-App-Image-2025-04-10-at-05-19-40-8c12eb1d.jpg";
   }}
   className="w-32 h-32 object-cover rounded-full mx-auto"
 />

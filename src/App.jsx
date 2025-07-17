@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Feed from './components/Feed'
 import Profile from './components/Profile'
+import Connections from './components/Connections'
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
 
       <Route path='/login' element={<Login />} />
       <Route path='/profile' element={<Profile />} />
+      <Route path='/connections' element={ <Connections />} />
+      <Route path='/requests' element={<Profile />} />
+
       </Route>
 
     </Routes>
